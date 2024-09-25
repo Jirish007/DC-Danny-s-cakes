@@ -72,10 +72,10 @@ LoadCakes()
 
 /*TOGGLING*/
 var nav = document.querySelector("#nav")
-let cover = document.querySelector("#cover")
-let button = document.querySelector("#button")
-let check = document.querySelector(".swiper")
-let check1 = document.querySelector(".check")
+let cover  = document.querySelector("#cover")
+let button  = document.querySelector("#button")
+let check= document.querySelector(".swiper")
+let check1  = document.querySelector(".check")
 function Toggle(){
      
     nav.classList.add("active")
@@ -115,3 +115,4 @@ const swiper = new Swiper('.swiper', {
       el: '.swiper-scrollbar',
     },
   });
+  
